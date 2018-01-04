@@ -151,7 +151,7 @@ void system()
     }
     }
     }
-    if(ans != '1'){
+    if(ans != '#'){
     cout<<"\n enter # to exit \n";
     cout<<"[0]how to use\n";
     cout<<"[1]show program map \n";
@@ -375,7 +375,7 @@ long double b2d(char input[])
                             break;
                             default:
                                 cout<<"********************\n";
-                                cout<<"ERROR: Wrong Input *  ^^     binary numbers doesn't numbers other than 1s and 0s  \n";
+                                cout<<"ERROR: Wrong Input *  ^^     binary numbers doesn't contain numbers other than 1s and 0s  \n";
                                 cout<<"********************  || \n";
                                 a=--num;
                         }
